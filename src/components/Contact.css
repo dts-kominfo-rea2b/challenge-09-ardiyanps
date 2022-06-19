@@ -1,0 +1,32 @@
+.Contact {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #b2bec3;
+  column-gap: 30px;
+  text-align: center;
+  align-items: center;
+  background-color: slategray;
+  border-radius: 10px;
+  border-bottom-left-radius: 100px;
+}
+
+.Photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Photo img {
+  width: 150%;
+  height: 150%;
+}
+
+.Data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

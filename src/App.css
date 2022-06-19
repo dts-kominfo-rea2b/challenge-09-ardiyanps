@@ -1,4 +1,37 @@
 .App {
   text-align: center;
   display: flex;
+  background: grey;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  max-width: 50%;
+  width: 80%;
+  max-height: 80vh;
+  background: burlywood;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 130px;
+}
+
+.Main {
+  height: 90%;
+  overflow: hidden auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 30px 0px 30px;
+  row-gap: 30px;
+}
+
+.Main::-webkit-scrollbar {
+  display: none;
 }
